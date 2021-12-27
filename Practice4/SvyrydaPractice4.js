@@ -51,3 +51,10 @@ function isEqual(a, b) {
 }
 
 console.log(isEqual({a:1 , b: 1}, {a:1 , b: 1}))
+
+module.exports = {
+    sumElem,
+    transformArr,
+    divideArr,
+    isEqual
+}
