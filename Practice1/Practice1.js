@@ -11,45 +11,32 @@ function isPalindrome(str) {
 
 console.log(isPalindrome('adassss'))
 
-function validArgument(a) {
-    let result = '';
 
-    if (typeof a !== 'string') {
-        result = 'incorrect input data';
+function isSymbol(char) {
+    return ',.!:-_? '.includes(char)
 
-        return result;
-    }
-
-    if (a.length > 2 && a.length < 20) {
-        result = 'VALID';
-    } else {
-        result = 'INVALID';
-        return result;
-    }
-
-
-    if (a[0] === a[0].toUpperCase() && a.includes(',') || a.includes('!') || a.includes(':') || a.includes('-') || a.includes('?') || a.includes('.') || a.includes(' ')) {
-        result = 'VALID';
-    } else {
-        result = 'INVALID';
-        return result;
-    }
-
-    if (a[0] === ',' || a[0] === '!' || a[0] === ':' || a[0] === '-' || a[0] === '?' || a[0] === '.' || a[0] === ' ') {
-        result = 'INVALID';
-    } else {
-        result = 'VALID';
-
-        return result;
-    }
-
-
-    return result;
 }
 
-console.log(validArgument('add!'));
+function checkSymbols(str) {
+    return [',', '.', '!', ':', '-', '_', '?', ' '].some((symbol) => str.includes(symbol));
 
-console.log(validArgument('Sfsdf!'))
+}
+
+function isValidString(str) {
+    if (str || typeof str === 'string') {
+        if (str.length >= 2 && str.length <= 20 && checkSymbols(str) && (!isSymbol(str[0]) || str[0] === str[0].toUpperCase())) {
+            return 'VALID';
+        } else {
+            return 'INVALID';
+        }
+    }
+
+    return 'incorrect input data';
+}
+
+console.log(isValidString('add!'));
+
+console.log(isValidString('Sfsdf!'))
 
 function sumNumber(a, b) {
     let result = 0;
@@ -98,7 +85,8 @@ console.log(checkNumber(11))
 
 module.exports = {
     isPalindrome,
-    validArgument,
+    //validArgument,
+    isValidString,
     sumNumber,
     checkNumber
 }
