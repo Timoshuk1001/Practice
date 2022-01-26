@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1641898054921" clover="3.2.0">
-  <project timestamp="1641898054921" name="All files">
+<coverage generated="1643225252402" clover="3.2.0">
+  <project timestamp="1643225252402" name="All files">
     <metrics statements="422" coveredstatements="394" conditionals="125" coveredconditionals="116" methods="30" coveredmethods="29" elements="577" coveredelements="539" complexity="0" loc="422" ncloc="422" packages="5" files="5" classes="5"/>
     <package name="Practice1">
       <metrics statements="92" coveredstatements="89" conditionals="32" coveredconditionals="30" methods="6" coveredmethods="6"/>
-      <file name="Practice1.js" path="D:\CoursesDevEducation\Practice\Practice\Practice1\Practice1.js">
+      <file name="Practice1.js" path="D:\CoursesDevEducation\04 - Practice\Practice\Practice1\Practice1.js">
         <metrics statements="92" coveredstatements="89" conditionals="32" coveredconditionals="30" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -102,7 +102,7 @@
     </package>
     <package name="Practice2">
       <metrics statements="69" coveredstatements="67" conditionals="23" coveredconditionals="22" methods="4" coveredmethods="4"/>
-      <file name="SvyrydaPractice2.js" path="D:\CoursesDevEducation\Practice\Practice\Practice2\SvyrydaPractice2.js">
+      <file name="SvyrydaPractice2.js" path="D:\CoursesDevEducation\04 - Practice\Practice\Practice2\SvyrydaPractice2.js">
         <metrics statements="69" coveredstatements="67" conditionals="23" coveredconditionals="22" methods="4" coveredmethods="4"/>
         <line num="1" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -177,7 +177,7 @@
     </package>
     <package name="Practice4">
       <metrics statements="60" coveredstatements="58" conditionals="21" coveredconditionals="20" methods="4" coveredmethods="4"/>
-      <file name="SvyrydaPractice4.js" path="D:\CoursesDevEducation\Practice\Practice\Practice4\SvyrydaPractice4.js">
+      <file name="SvyrydaPractice4.js" path="D:\CoursesDevEducation\04 - Practice\Practice\Practice4\SvyrydaPractice4.js">
         <metrics statements="60" coveredstatements="58" conditionals="21" coveredconditionals="20" methods="4" coveredmethods="4"/>
         <line num="1" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="cond" truecount="1" falsecount="0"/>
@@ -243,7 +243,7 @@
     </package>
     <package name="Practice6">
       <metrics statements="138" coveredstatements="117" conditionals="30" coveredconditionals="25" methods="7" coveredmethods="6"/>
-      <file name="script.js" path="D:\CoursesDevEducation\Practice\Practice\Practice6\script.js">
+      <file name="script.js" path="D:\CoursesDevEducation\04 - Practice\Practice\Practice6\script.js">
         <metrics statements="138" coveredstatements="117" conditionals="30" coveredconditionals="25" methods="7" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -387,7 +387,7 @@
     </package>
     <package name="Practice7">
       <metrics statements="63" coveredstatements="63" conditionals="19" coveredconditionals="19" methods="9" coveredmethods="9"/>
-      <file name="script.js" path="D:\CoursesDevEducation\Practice\Practice\Practice7\script.js">
+      <file name="script.js" path="D:\CoursesDevEducation\04 - Practice\Practice\Practice7\script.js">
         <metrics statements="63" coveredstatements="63" conditionals="19" coveredconditionals="19" methods="9" coveredmethods="9"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
